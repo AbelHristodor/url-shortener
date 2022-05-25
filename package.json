@@ -1,0 +1,41 @@
+{
+  "name": "aby-codes",
+  "version": "1.1.0",
+  "description": "Url shortener",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --inspect=0.0.0.0 app.js",
+    "lint": "eslint --fix src",
+    "test": "mocha test/**/*.js --exit"
+  },
+  "author": "Abel Hristodor",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.16",
+    "validator": "^13.7.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslit": "^6.0.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  }
+}
