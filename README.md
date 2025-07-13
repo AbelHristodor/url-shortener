@@ -20,4 +20,6 @@ Libraries used:
 
 ## Get Started
 
-as
+Just git clone the repository and run `npm i` and then `npm run dev` to start nodemon
+
+asd aa aa ss as as
